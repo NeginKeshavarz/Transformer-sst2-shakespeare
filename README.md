@@ -14,9 +14,4 @@ This project pretrains a small Transformer (character-level) on Shakespeare, the
     python Nanogpt-Task2.py
     ```
 
-## Results
-- Example generated text after pretraining:
-    ```
-    <paste a sample here!>
-    ```
 - Fine-tuning accuracy: ~1.0 (train set)
