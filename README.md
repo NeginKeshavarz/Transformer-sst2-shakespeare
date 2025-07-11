@@ -1,10 +1,10 @@
 # Transformer Pretraining & Sentiment Fine-Tuning
 
-This project pretrains a small Transformer (character-level) on Shakespeare, then fine-tunes on SST2 sentiment analysis using the MMLO loss.
+This project pretrains a small Transformer (character-level) on Shakespeare, then fine-tunes on SST2 sentiment analysis then we apply RLHF and PPO training.
 
 - **Initialization**: Glorot/Xavier
 - **Pretraining**: Shakespeare
-- **Fine-tuning**: SST2, MMLO loss
+- **Fine-tuning**: SST2
 - **Model**: Character-level Transformer
 
 ## How to run
@@ -14,4 +14,4 @@ This project pretrains a small Transformer (character-level) on Shakespeare, the
     python Nanogpt-Task2.py
     ```
 
-- Fine-tuning accuracy: ~1.0 (train set)
+- Fine-tuning accuracy: 0.8550
